@@ -1,3 +1,21 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Saalon Muyo"
+theme = "kube"
+description = "Programmer by day and writer by night living in Pittsburgh, PA. All my work is done with a keyboard."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "" # add your github profile name
+  twitter = "saalon" # add your twitter profile
+  email = "saalon@gmail.com"
+
+[[menu.main]]
+    name = "Books"
+    weight = -100
+    url = "/books/"
+[[menu.main]]
+    name = "Blog"
+    weight = -99
+    url = "https://medium.com/@saalon"

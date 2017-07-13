@@ -1,0 +1,54 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description | safeHTML}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="/books" onclick="_gaq.push(['_trackEvent', 'kube', 'download', '1.0']);">Check Out My Books</a>
+    <a class="button outline big" href="https://medium.com/@saalon" onclick="_gaq.push(['_trackEvent', 'kube', 'github', '1.0.0']);">Read a Blog Thing</a>
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <a href="https://www.amazon.com/Broken-Magic-Eric-Sipple-ebook/dp/B009FLIA9S"><img alt="Broken Magic" height="48" src="/images/broken_magic_front.jpg" width="90"></a>
+        </figure>
+        <a href="https://www.amazon.com/Broken-Magic-Eric-Sipple-ebook/dp/B009FLIA9S"><h3>Broken Magic</h3></a>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <a href="http://www.amazon.com/Deli-Counter-Justice-Eric-Sipple/dp/1502528800/ref=asap_B007TJVR8E_1_1?s=books&ie=UTF8&qid=1415157481&sr=1-1"><img alt="Deli Counter of Justice" height="48" src="/images/deli_counter_front.jpg" width="90"></a>
+        </figure>
+        <a href="http://www.amazon.com/Deli-Counter-Justice-Eric-Sipple/dp/1502528800/ref=asap_B007TJVR8E_1_1?s=books&ie=UTF8&qid=1415157481&sr=1-1"><h3>The Deli Counter of Justice</h3></a>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <img alt="Minimalism" height="48" src="/img/kube/icon-minimalism.png" width="48">
+        </figure>
+        <h3>Minimalism</h3>
+        <p>We strongly believe in minimalism as a general concept as well as a practical approach to everyday life.</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <h4>Mobile-first Design</h4>
+        <p>Every element in kube is mobile-first and fully embraces latest and greatest tech.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>Cross-browser</h4>
+        <p>Kube works in all modern browsers, both desktop and mobile, including latest Chrome, Firefox, Safari, Opera, IE and Edge.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>License</h4>
+        <p>Kube licensed under <a href="http://opensource.org/licenses/MIT">MIT</a>.<br>
+          Kube Framework is absolutely free for personal or commercial use.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
