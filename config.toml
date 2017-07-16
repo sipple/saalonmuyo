@@ -18,4 +18,4 @@ Paginate = 4
 [[menu.main]]
     name = "Blog"
     weight = -99
-    url = "https://medium.com/@saalon"
+    url = "https://medium.com/sippy-speaks"
