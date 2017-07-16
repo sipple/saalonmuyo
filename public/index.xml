@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saalon Muyo! on Saalon Muyo</title>
+    <link>http://saalonmuyo.com/</link>
+    <description>Recent content in Saalon Muyo! on Saalon Muyo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:40:43 +0100</lastBuildDate>
+    
+	<atom:link href="http://saalonmuyo.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Books and Stories</title>
+      <link>http://saalonmuyo.com/books/</link>
+      <pubDate>Mon, 10 Apr 2017 16:40:43 +0100</pubDate>
+      
+      <guid>http://saalonmuyo.com/books/</guid>
+      <description>The Deli Counter of Justice    For decades, Carl Cook fought crime in the city of New Caliburn as the superhero Piecemaker. With the power to disassemble most everything around him, Carl was very good at taking things apart; less so at putting them back together. One divorce and an alienated daughter later, he realized the toll heroing had taken. In an attempt to move on and take charge of his life, Carl hung up the cape and opened Cook&amp;rsquo;s Deli.</description>
+    </item>
+    
+  </channel>
+</rss>

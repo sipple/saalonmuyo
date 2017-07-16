@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://saalonmuyo.com"
 languageCode = "en-us"
 title = "Saalon Muyo"
 theme = "kube"
